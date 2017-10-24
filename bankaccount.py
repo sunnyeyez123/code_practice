@@ -1,14 +1,11 @@
 ''' A bank account experience that allows you to view the balance of, deposit to and withdraw from your account'''
 
-def BankAccount(object):
+class BankAccount(object):
   balance = 0
-  
-  def __init__ (self, name):
+  def __init__(self,name):
     self.name = name
     
-    
   def __repr__(self):
-    print "test 2"
     return "%s's account. Balanace: %.2f" %(self.name, self.balance)
 
   def show_balance(self):
@@ -32,11 +29,9 @@ def BankAccount(object):
       self.balance -= amount
       self.show_balance()
       
-my_account = BankAccount("Your-name-here")
+my_account = BankAccount("Jasmine")
 print my_account
 my_account.show_balance()
-account.deposit(2000)
-account.withdraw(1000)
-print account
-
-    
+my_account.deposit(2000)
+my_account.withdraw(1000)
+print my_account
