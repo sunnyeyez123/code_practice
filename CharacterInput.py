@@ -4,7 +4,9 @@ they will turn 100 years old.
 
 Extras:
 Add on to the previous program by asking the user for another number and printing 
-out that many copies of the previous message. '''
+out that many copies of the previous message. 
+Source:http://www.practicepython.org/
+'''
 
 name, age, count = raw_input("Please enter your 'name, age, number'. ex: Jaz, 26, 2: ").split(',')
 
