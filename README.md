@@ -6,6 +6,7 @@ Java
 
 
 Javascript
+- Whale Talk: Convert text into whale language
 - Rock, Paper, Scissors : A classic game of Rock, Paper Scissors with a Secret Twist
 
 
